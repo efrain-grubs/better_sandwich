@@ -27,7 +27,7 @@ CLIENT = InferenceHTTPClient(
 def get_unprocessed_images():
     """
     Lists all images in the unprocessed folder of the S3 bucket.
-    Returns a list of image keys.
+    Returns a list of image kes.
     """
     try:
         response = s3_client.list_objects_v2(
